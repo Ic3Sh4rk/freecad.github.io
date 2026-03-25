@@ -17,9 +17,9 @@ The main goal of the 0.18dev cycle is to iron out all Python3 and Qt5 incompatib
 Summary
 -------
 
-* Tracking Python3 and Qt5 compatibility is ongoing. Ways to track progress: `Python3 and Qt5 Compatible Addon Workbenches (in preparation for 0.18) <https://forum.freecadweb.org/viewtopic.php?f=10&t=30624>`_. Many fixes provided by @looooo and @wmayer and others.
+* Tracking Python3 and Qt5 compatibility is ongoing. Ways to track progress: `Python3 and Qt5 Compatible Addon Workbenches (in preparation for 0.18) <https://forum.freecad.org/viewtopic.php?f=10&t=30624>`_. Many fixes provided by @looooo and @wmayer and others.
 * An upgrade to the Start Page Workbench was `merged <https://github.com/FreeCAD/FreeCAD/pull/1617>`_. The UI has been modernized and updated with a Notepad that persists between FreeCAD sessions.
-* Arch Stair was improved see `FreeCAD forum thread <https://forum.freecadweb.org/viewtopic.php?f=23&t=29358>`_
+* Arch Stair was improved see `FreeCAD forum thread <https://forum.freecad.org/viewtopic.php?f=23&t=29358>`_
 * Assembly3 port continues to receive a lot of attention and care for `@realthunder <https://github.com/realthunder>`_ and a lot of interest from the rest of the FreeCAD community. Progress of As3 can be followed on the `git repo <https://github.com/realthunder/FreeCAD_assembly3/>`_
 * Several Sketcher Solver refinements made it in to master, thanks to `@abdullahtahiriyo <https://github.com/abdullahtahiriyo>`_
 * New Workbenches added to FreeCAD Addon Manager: `SlopedPlanes <https://github.com/caceres/SlopedPlanesMacro>`_, `Lithopane <https://github.com/furti/FreeCAD-Lithophane/>`_, and `AirPlaneDesign <https://github.com/FredsFactory/FreeCAD_AirPlaneDesign/>`_

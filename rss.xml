@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FreeCAD Development Blog</title><link>https://freecad.github.io/</link><description>Announcements and community progress news in FreeCAD development.</description><atom:link href="https://freecad.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:info@freecadweb.org"&gt;FreeCAD Community&lt;/a&gt; </copyright><lastBuildDate>Mon, 11 Mar 2019 19:50:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introduction to FreeCAD development</title><link>https://freecad.github.io/posts/introduction-to-freecad-development/</link><dc:creator>FreeCAD Community</dc:creator><description>&lt;div&gt;&lt;p&gt;Have you ever wanted to contribute back to the project? Let us help you getting started!&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FreeCAD Development Blog</title><link>https://freecad.github.io/</link><description>Announcements and community progress news in FreeCAD development.</description><atom:link href="https://freecad.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:info@freecad.org"&gt;FreeCAD Community&lt;/a&gt; </copyright><lastBuildDate>Mon, 11 Mar 2019 19:50:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introduction to FreeCAD development</title><link>https://freecad.github.io/posts/introduction-to-freecad-development/</link><dc:creator>FreeCAD Community</dc:creator><description>&lt;div&gt;&lt;p&gt;Have you ever wanted to contribute back to the project? Let us help you getting started!&lt;/p&gt;
 &lt;p&gt;If you want to contribute, write a thread about what you want to do in the developers corner and we will do our best to get you going. This post provides a brief overview of our workflow.&lt;/p&gt;
 &lt;div class="section" id="forum"&gt;
 &lt;h2&gt;Forum&lt;/h2&gt;
-&lt;p&gt;The FreeCAD forum: &lt;a class="reference external" href="https://forum.freecadweb.org/"&gt;https://forum.freecadweb.org/&lt;/a&gt; is the primary place for communication between FreeCAD users as well as developers.
+&lt;p&gt;The FreeCAD forum: &lt;a class="reference external" href="https://forum.freecad.org/"&gt;https://forum.freecad.org/&lt;/a&gt; is the primary place for communication between FreeCAD users as well as developers.
 This should be the first place to search for answers if you have any questions.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; When you create a forum account, it might take a while before it's activated as the process is currently manual. This is done to limit spamming.&lt;/p&gt;
 &lt;/div&gt;
@@ -11,7 +11,7 @@ This should be the first place to search for answers if you have any questions.&
 &lt;h2&gt;Issues/Tickets&lt;/h2&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;FreeCAD uses &lt;a class="reference external" href="https://mantisbt.org/"&gt;MantisBT&lt;/a&gt; as its tracker for bug reporting and feature requests.&lt;/div&gt;
-&lt;div class="line"&gt;The FreeCAD tracker address is &lt;a class="reference external" href="https://freecadweb.org/tracker/"&gt;https://freecadweb.org/tracker/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;The FreeCAD tracker address is &lt;a class="reference external" href="https://freecad.org/tracker/"&gt;https://freecad.org/tracker/&lt;/a&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;strong&gt;Note:&lt;/strong&gt; In order to create issues you will have to create an separate MantisBT account.&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;As we are getting a lot of reports please follow the rules before creating a new issue&lt;/p&gt;
@@ -22,16 +22,16 @@ This should be the first place to search for answers if you have any questions.&
 &lt;li&gt;Post your &lt;strong&gt;Help&amp;gt;About FreeCAD&amp;gt;Copy to clipboard&lt;/strong&gt; version info in to forum thread and ticket.&lt;/li&gt;
 &lt;li&gt;Post a Step-By-Step explanation on how to recreate the issue.&lt;/li&gt;
 &lt;li&gt;If possible, upload an example file to demonstrate problem.&lt;/li&gt;
-&lt;li&gt;If there is a crash involved, please consider &lt;a class="reference external" href="https://freecadweb.org/wiki/Debugging"&gt;Debugging&lt;/a&gt; and attaching the traceback to the ticket.&lt;/li&gt;
+&lt;li&gt;If there is a crash involved, please consider &lt;a class="reference external" href="https://freecad.org/wiki/Debugging"&gt;Debugging&lt;/a&gt; and attaching the traceback to the ticket.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;div class="section" id="documentation"&gt;
 &lt;h2&gt;Documentation&lt;/h2&gt;
 &lt;div class="line-block"&gt;
-&lt;div class="line"&gt;FreeCAD uses &lt;a class="reference external" href="https://mediawiki.org"&gt;MediaWiki&lt;/a&gt; for its documentation. To be able to modify the wiki, you must &lt;a class="reference external" href="https://forum.freecadweb.org/viewtopic.php?f=21&amp;amp;t=6830"&gt;request access from the FreeCAD wiki admins&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;FreeCAD uses &lt;a class="reference external" href="https://mediawiki.org"&gt;MediaWiki&lt;/a&gt; for its documentation. To be able to modify the wiki, you must &lt;a class="reference external" href="https://forum.freecad.org/viewtopic.php?f=21&amp;amp;t=6830"&gt;request access from the FreeCAD wiki admins&lt;/a&gt;.&lt;/div&gt;
 &lt;div class="line"&gt;&lt;strong&gt;Note:&lt;/strong&gt; To get an Wiki account we require you to have a forum account with at least 1 post.&lt;/div&gt;
-&lt;div class="line"&gt;Before you start changing things in the wiki please read the &lt;a class="reference external" href="https://www.freecadweb.org/wiki/WikiPages"&gt;WikiPages&lt;/a&gt; guidelines,&lt;/div&gt;
-&lt;div class="line"&gt;There are several rules on how to write on the wiki to keep it organized, high quality, translated and up to date. It's our practice to discuss the additions/changes one wants to make in the &lt;a class="reference external" href="https://forum.freecadweb.org/viewforum.php?f=21"&gt;FC wiki subforum&lt;/a&gt; prior to posting.&lt;/div&gt;
+&lt;div class="line"&gt;Before you start changing things in the wiki please read the &lt;a class="reference external" href="https://www.freecad.org/wiki/WikiPages"&gt;WikiPages&lt;/a&gt; guidelines,&lt;/div&gt;
+&lt;div class="line"&gt;There are several rules on how to write on the wiki to keep it organized, high quality, translated and up to date. It's our practice to discuss the additions/changes one wants to make in the &lt;a class="reference external" href="https://forum.freecad.org/viewforum.php?f=21"&gt;FC wiki subforum&lt;/a&gt; prior to posting.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="code"&gt;
@@ -43,10 +43,10 @@ The git repo is hosted at &lt;a class="reference external" href="https://github.
 &lt;h2&gt;Development&lt;/h2&gt;
 &lt;p&gt;If you're interested developing for FreeCAD please look into&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;Read the &lt;a class="reference external" href="https://www.freecadweb.org/wiki/index.php?title=The_FreeCAD_source_code"&gt;Source code wiki page&lt;/a&gt; and check the &lt;a class="reference external" href="https://www.freecadweb.org/api/annotated.html"&gt;API reference&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;Creating your own workbench (See &lt;a class="reference external" href="https://www.freecadweb.org/wiki/Workbench_creation"&gt;Workbench Creation&lt;/a&gt; , &lt;a class="reference external" href="https://www.freecadweb.org/wiki/Module_Creation"&gt;Module Creation&lt;/a&gt; , &lt;a class="reference external" href="https://github.com/FreeCAD/Workbench-Starterkit"&gt;Workbench Starterkit&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Read the &lt;a class="reference external" href="https://www.freecad.org/wiki/index.php?title=The_FreeCAD_source_code"&gt;Source code wiki page&lt;/a&gt; and check the &lt;a class="reference external" href="https://www.freecad.org/api/annotated.html"&gt;API reference&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;Creating your own workbench (See &lt;a class="reference external" href="https://www.freecad.org/wiki/Workbench_creation"&gt;Workbench Creation&lt;/a&gt; , &lt;a class="reference external" href="https://www.freecad.org/wiki/Module_Creation"&gt;Module Creation&lt;/a&gt; , &lt;a class="reference external" href="https://github.com/FreeCAD/Workbench-Starterkit"&gt;Workbench Starterkit&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Modifying an existing workbench (View source code of any external workbench at &lt;a class="reference external" href="https://github.com/FreeCAD/FreeCAD-addons"&gt;FreeCAD-Addons Repo&lt;/a&gt; )&lt;/li&gt;
-&lt;li&gt;Creating your own macro (Read more about &lt;a class="reference external" href="https://www.freecadweb.org/wiki/Macros"&gt;FreeCAD Macros&lt;/a&gt; and the &lt;a class="reference external" href="https://github.com/FreeCAD/FreeCAD-macros"&gt;FreeCAD Macros Repo&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Creating your own macro (Read more about &lt;a class="reference external" href="https://www.freecad.org/wiki/Macros"&gt;FreeCAD Macros&lt;/a&gt; and the &lt;a class="reference external" href="https://github.com/FreeCAD/FreeCAD-macros"&gt;FreeCAD Macros Repo&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Building FreeCAD and writing C++ code (See &lt;a class="reference external" href="https://github.com/FreeCAD/FreeCAD#compiling"&gt;Compiling instructions&lt;/a&gt; )&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;&lt;/div&gt;</description><guid>https://freecad.github.io/posts/introduction-to-freecad-development/</guid><pubDate>Sat, 10 Nov 2018 21:11:10 GMT</pubDate></item><item><title>Summary of FreeCAD Development so far</title><link>https://freecad.github.io/posts/09-07-2018-Summary/</link><dc:creator>FreeCAD Community</dc:creator><description>&lt;div&gt;&lt;p&gt;Greetings to all FreeCADers, this post is created by a FreeCAD volunteer to keep the community up to date about how 0.18 development is progressing. Since FreeCAD has a pretty long release cycle (the team has decided on a yearly cycle)
@@ -56,9 +56,9 @@ this blog then will come in handy for folks that are really wanting to use the v
 &lt;div class="section" id="summary"&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Tracking Python3 and Qt5 compatibility is ongoing. Ways to track progress: &lt;a class="reference external" href="https://forum.freecadweb.org/viewtopic.php?f=10&amp;amp;t=30624"&gt;Python3 and Qt5 Compatible Addon Workbenches (in preparation for 0.18)&lt;/a&gt;. Many fixes provided by @looooo and @wmayer and others.&lt;/li&gt;
+&lt;li&gt;Tracking Python3 and Qt5 compatibility is ongoing. Ways to track progress: &lt;a class="reference external" href="https://forum.freecad.org/viewtopic.php?f=10&amp;amp;t=30624"&gt;Python3 and Qt5 Compatible Addon Workbenches (in preparation for 0.18)&lt;/a&gt;. Many fixes provided by @looooo and @wmayer and others.&lt;/li&gt;
 &lt;li&gt;An upgrade to the Start Page Workbench was &lt;a class="reference external" href="https://github.com/FreeCAD/FreeCAD/pull/1617"&gt;merged&lt;/a&gt;. The UI has been modernized and updated with a Notepad that persists between FreeCAD sessions.&lt;/li&gt;
-&lt;li&gt;Arch Stair was improved see &lt;a class="reference external" href="https://forum.freecadweb.org/viewtopic.php?f=23&amp;amp;t=29358"&gt;FreeCAD forum thread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arch Stair was improved see &lt;a class="reference external" href="https://forum.freecad.org/viewtopic.php?f=23&amp;amp;t=29358"&gt;FreeCAD forum thread&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Assembly3 port continues to receive a lot of attention and care for &lt;a class="reference external" href="https://github.com/realthunder"&gt;@realthunder&lt;/a&gt; and a lot of interest from the rest of the FreeCAD community. Progress of As3 can be followed on the &lt;a class="reference external" href="https://github.com/realthunder/FreeCAD_assembly3/"&gt;git repo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Several Sketcher Solver refinements made it in to master, thanks to &lt;a class="reference external" href="https://github.com/abdullahtahiriyo"&gt;@abdullahtahiriyo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;New Workbenches added to FreeCAD Addon Manager: &lt;a class="reference external" href="https://github.com/caceres/SlopedPlanesMacro"&gt;SlopedPlanes&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/furti/FreeCAD-Lithophane/"&gt;Lithopane&lt;/a&gt;, and &lt;a class="reference external" href="https://github.com/FredsFactory/FreeCAD_AirPlaneDesign/"&gt;AirPlaneDesign&lt;/a&gt;&lt;/li&gt;
